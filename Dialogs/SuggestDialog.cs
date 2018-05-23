@@ -108,7 +108,7 @@ namespace SimpleEchoBot.Dialogs
                 switch (optionSelected)
                 {
                     case "ใช่":
-                        await context.PostAsync($"ระบุรุ่นรถของ{this.user.genderThai}ด้วยเถิดหนา (เช่น 'Honda Jazz' เฉพาะรถของ Honda)");
+                        await context.PostAsync($"ระบุรุ่นรถของ{this.user.genderThai}ด้วยเถิดหนา (เช่น 'Honda Jazz'เฉพาะรถของ Honda)");
                         context.Wait(this.ModelReceivedAsync);
                         break;
 
